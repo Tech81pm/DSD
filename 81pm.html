@@ -7,10 +7,11 @@
     <title>Email Signature</title>
 
 <style>
-  div#line {
+div#line {
     height: 20px;
-    width: 25%;
-    margin-left: 25%;
+    width: 500px;
+    margin-left: 250px;
+    margin-bottom: 10px;
     
 }
 
@@ -20,80 +21,141 @@ div#line > div {
 
 }
 
-div#gray {
-    width: 10%;
-    background-color: #FFBF00;
-    background: linear-gradient(1200deg, white 1.5ch, #FFBF00 1ch);
-}
 
 div#red {
-    width: 10%;
+    width: 30px;
     background-color: #FFAC1C;
-    background: linear-gradient(1200deg, #FFBF00 1.5ch, #FFAC1C 1ch);
+    background: linear-gradient(2200deg, white 2ch,  #FFAC1C 1ch);
 }
 
 
 div#pink {
-    width: 10%;
+    width: 25px;
     background-color: #F28C28;
-    background: linear-gradient(1200deg, #FFAC1C 1.5ch, #F28C28 1ch);
+    background: linear-gradient(2200deg, #FFAC1C 2ch, #F28C28 1ch);
 }
 
 div#orange {
-    width: 10%;
+    width: 25px;
     background-color: orange;
-    background: linear-gradient(1200deg, #F28C28 1.5ch, orange 1ch);
+    background: linear-gradient(2200deg, #F28C28 2ch, orange 1ch);
 }
 div#yellow {
-    width: 10%;
+    width: 25px;
     background-color: #FFC000;
-    background: linear-gradient(1200deg, orange 1.5ch, #FFBF00 1ch);
+    background: linear-gradient(2200deg, orange 2ch, white 1ch);
 }
 div#black {
-    width: 50%;
+    width: 145px;
     background-color: black;
-    background: linear-gradient(1200deg, #FFC000 1.5ch, black 1ch);
+    background: linear-gradient(2200deg, white 2ch, black 1ch);
+}
+
+div#lines2 {
+    height: 20px;
+    width: 500px;
+    margin-top: 10px;
+    
+}
+
+div#lines2 > div {
+    height: 100%;
+    float: right;
+
+
+}
+
+div#line1 {
+    width: 15%;
+    background-color: #FFAC1C;
+    background: linear-gradient(1300deg, white 2ch, #FFAC1C 1ch);
+}
+
+
+div#line2 {
+    width: 15%;
+    background-color: #F28C28;
+    background: linear-gradient(1300deg, #FFAC1C 2ch, #F28C28 1ch);
+}
+
+div#line3 {
+    width: 15%;
+    background-color: orange;
+    background: linear-gradient(1300deg, #F28C28 2ch, orange 1ch);
+}
+div#line4 {
+    width: 15%;
+    background-color: #FFC000;
+    background: linear-gradient(1300deg, orange 2ch, white 1ch);
+}
+div#line5 {
+    width: 40%;
+    background-color: black;
+    background: linear-gradient(1300deg, white 2ch, black 1ch);
+}
+
+
+.vl {
+  border-left: 5px solid orange;
+  height: 130px;
+  position:absolute;
+  left: 165px;
+  top: 100px;
 }
 
 </style>    
 </head>
+
 <body>
-<h4>Regards,</h4>
-<table cellspacing="0" cellpadding="0"  style="FONT-FAMILY: Arial, sans-serif; COLOR: #ca2929;width:550px;background: transparent !important;" class="ng-scope">
+<h5 style="FONT-FAMILY: Arial, sans-serif; COLOR: black;">Regards,</h5>
+
+  <div id="line">
+  
+    <div id="red"></div>
+    <div id="pink"></div>
+    <div id="orange"></div>
+    <div id="yellow"></div>
+    <div id="black"></div>
+  </div>
+
+<table  style="FONT-FAMILY: Arial, sans-serif; COLOR: #ca2929;width:550px;background: transparent !important;" class="ng-scope">
   <tbody>
   <tr>
-    <td style="padding-bottom:10px; padding-right:40px;">
+    <td style="padding-bottom:0px; padding-right:0px;">
 
-	<a><img src="https://github.com/Tech81pm/DSD/blob/main/logo.png?raw=true" style="width:140px; height:auto;"></a>
+	<a><img src="https://github.com/Tech81pm/DSD/blob/main/logo.png?raw=true" style="width:140px; height:auto; margin-top: 20px;">
+
+  </a>
 	 
-
 	 </td>
     
-	<td valign="top" style="FONT-FAMILY: Arial, sans-serif;">
-		
-		<div>
-			<label style="FONT-SIZE: 26px; COLOR: orange; FONT-FAMILY: Arial, sans-serif;"><strong class="ng-binding">Dhiven Paul Saplan</label>
-      <p style="margin-top: 10px; color: white; FONT-FAMILY: Arial, sans-serif;"><span style="FONT-SIZE: 14px; background-color: orange; border-radius: 15px; padding: 5px"> DSD Assistant</span></p>
+	<td class="vl" valign="top" style="FONT-FAMILY: Arial, sans-serif; margin-bottom: 0px;">
+
+		<div >
+			<label style="FONT-SIZE: 24px; COLOR: orange; FONT-FAMILY: Arial, sans-serif;"><strong class="ng-binding">Dhiven Paul Saplan</label>
+      <p style="margin-top: 10px; color: white; FONT-FAMILY: Arial, sans-serif;"><span style="FONT-SIZE: 12px; background-color: orange; border-radius: 15px; padding: 5px"> DSD Assistant</span></p>
       
 			
     </div>
-         
+    
+
+           
                 <span style="white-space: nowrap;">
-                  <img src="https://github.com/Tech81pm/DSD/blob/main/placeholder.png?raw=true" width="16px">&nbsp;<span style="FONT-SIZE: 10px; color:black; FONT-FAMILY: Arial, sans-serif;" >Unit 2801, Cityland Pasong Tower, Chino Roces Ave, Makati City, 1231</span>     
+                  <img src="https://github.com/Tech81pm/DSD/blob/main/placeholder.png?raw=true" width="16px">&nbsp;<span style="FONT-SIZE: 8px; color:black; FONT-FAMILY: Arial, sans-serif;" >Unit 2801, Cityland Pasong Tower, Chino Roces Ave, Makati City, 1231</span>     
                 </span>
 		<br>
                 <span style="white-space: nowrap;">
-                  <img src="https://github.com/Tech81pm/DSD/blob/main/telephone.png?raw=true" width="16px">&nbsp;<span style="FONT-SIZE: 10px; color:black; FONT-FAMILY: Arial, sans-serif;" >(02) 7002-5133
+                  <img src="https://github.com/Tech81pm/DSD/blob/main/telephone.png?raw=true" width="16px">&nbsp;<span style="FONT-SIZE: 8px; color:black; FONT-FAMILY: Arial, sans-serif;" >(02) 7002-5133
                 </span>                   
                 </span>
 		<br>
                 <span style="white-space: nowrap;">
-                  <img src="https://github.com/Tech81pm/DSD/blob/main/email.png?raw=true" width="16px">&nbsp;<span style="FONT-SIZE: 10px; color:black; FONT-FAMILY: Arial, sans-serif;" >tech.81property@gmail.com</span>                   
+                  <img src="https://github.com/Tech81pm/DSD/blob/main/email.png?raw=true" width="16px">&nbsp;<span style="FONT-SIZE: 8px; color:black; FONT-FAMILY: Arial, sans-serif;" >tech.81property@gmail.com</span>                   
                 </span>
     <br>
 		
                 <span style="white-space: nowrap;">
-                  <img src="https://github.com/Tech81pm/DSD/blob/main/link.png?raw=true" width="16px">&nbsp;<span style="FONT-SIZE: 10px;color:#444444; FONT-FAMILY: Arial, sans-serif;" >www.81property.com</span>
+                  <img src="https://github.com/Tech81pm/DSD/blob/main/link.png?raw=true" width="16px">&nbsp;<span style="FONT-SIZE: 8px;color:#444444; FONT-FAMILY: Arial, sans-serif;" >www.81property.com</span>
                 </span>
     <br>
     <br>            
@@ -103,18 +165,16 @@ div#black {
 </tr>
 </tbody>
 </table>
-<hr style="margin-bottom: 0; height: 10px; background-color: orange; border: none; width: 50%; float: left;">
   
-<div id="line">
+<div id="lines2">
   
-  <div id="gray"></div>
-  <div id="red"></div>
-  <div id="pink"></div>
-  <div id="orange"></div>
-  <div id="yellow"></div>
-  <div id="black"></div>
-  s
+  <div id="line1"></div>
+  <div id="line2"></div>
+  <div id="line3"></div>
+  <div id="line4"></div>
+  <div id="line5"></div>
+  
 </div>
-
+s
 </body>
 </html>
